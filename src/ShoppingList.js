@@ -1,9 +1,7 @@
-
-// ShoppingList.js
 import React, { useEffect, useState } from 'react';
 import { View, Text, TextInput, Button, FlatList, TouchableOpacity, StyleSheet } from 'react-native';
-import { db } from './firebase'; // Adjust the path as necessary to import your firebase file
-import { collection, onSnapshot, addDoc, doc, deleteDoc } from "firebase/firestore"; // Import Firestore methods
+import { db } from './firebase';
+import { collection, onSnapshot, addDoc, doc, deleteDoc } from "firebase/firestore";
 
 const ShoppingList = () => {
   const [items, setItems] = useState([]);

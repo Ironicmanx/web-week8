@@ -1,10 +1,8 @@
-
-// firebase.js
+// This file is used to initialize Firebase and export the Firestore instance
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
-// Your web app's Firebase configuration
-const firebaseConfig = {
+const firebaseConfig = { // Firebase configuration
   apiKey: "AIzaSyB_-L-3qPqvh1t5tHM1zapTR4e-YRUN-_k",
   authDomain: "shoppinglist-269ca.firebaseapp.com",
   projectId: "shoppinglist-269ca",
